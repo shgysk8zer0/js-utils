@@ -1,0 +1,47 @@
+{
+  "name": "@shgysk8zer0/js-utils",
+  "version": "1.0.0",
+  "description": "A collection of npm packages, such as ESLint and Rollup",
+  "module": "./index.js",
+  "main": "./index.cjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "exports": {
+    "./*": {
+      "import": "./*.js",
+      "require": "./*.cjs"
+    }
+  },
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "test": "npm run lint:js && npm run build",
+    "preversion": "npm test",
+    "prepare": "npm run build",
+    "lint:js": "eslint .",
+    "fix:js": "eslint. --fix",
+    "build": "npm run build:rollup",
+    "build:rollup": "rollup -c rollup.config.js",
+    "create:lock": "npm i --package-lock-only",
+    "version:bump": "npm run version:bump:patch",
+    "version:bump:patch": "npm version --no-git-tag-version patch",
+    "version:bump:minor": "npm version --no-git-tag-version minor",
+    "version:bump:major": "npm version --no-git-tag-version major"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shgysk8zer0/js-utils.git"
+  },
+  "author": "Chris Zuber <admin@kernvalley.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shgysk8zer0/js-utils/issues"
+  },
+  "homepage": "https://github.com/shgysk8zer0/js-utils#readme",
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.3",
+    "eslint": "^8.42.0",
+    "rollup": "^3.24.0"
+  }
+}
