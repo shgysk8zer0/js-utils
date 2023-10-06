@@ -42,6 +42,6 @@
   "dependencies": {
     "@rollup/plugin-terser": "^0.4.3",
     "eslint": "^8.42.0",
-    "rollup": "^3.24.0"
+    "rollup": "^4.0.1"
   }
 }
