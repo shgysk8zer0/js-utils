@@ -41,7 +41,7 @@
   "homepage": "https://github.com/shgysk8zer0/js-utils#readme",
   "dependencies": {
     "@rollup/plugin-terser": "^0.4.3",
-    "eslint": "^8.42.0",
+    "eslint": "^9.1.0",
     "rollup": "^4.0.1"
   }
 }
