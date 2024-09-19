@@ -1,6 +1,6 @@
 {
   "name": "@shgysk8zer0/js-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A collection of npm packages, such as ESLint and Rollup",
   "module": "./index.js",
   "main": "./index.cjs",
@@ -41,7 +41,10 @@
   "homepage": "https://github.com/shgysk8zer0/js-utils#readme",
   "dependencies": {
     "@rollup/plugin-terser": "^0.4.3",
-    "eslint": "^8.42.0",
+    "eslint": "^9.10.0",
     "rollup": "^4.0.1"
+  },
+  "devDependencies": {
+    "@shgysk8zer0/eslint-config": "^1.0.1"
   }
 }
