@@ -1,4 +1,3 @@
-/* eslint-env node */
 import { extname } from 'node:path';
 import terser from '@rollup/plugin-terser';
 
