@@ -40,7 +40,7 @@
   },
   "homepage": "https://github.com/shgysk8zer0/js-utils#readme",
   "dependencies": {
-    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-terser": "^1.0.0",
     "eslint": "^10.0.2",
     "rollup": "^4.59.0"
   },
