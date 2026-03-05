@@ -1,6 +1,6 @@
 {
   "name": "@shgysk8zer0/js-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A collection of npm packages, such as ESLint and Rollup",
   "module": "./index.js",
   "main": "./index.cjs",
@@ -45,6 +45,6 @@
     "rollup": "^4.59.0"
   },
   "devDependencies": {
-    "@shgysk8zer0/eslint-config": "^1.0.5"
+    "@shgysk8zer0/eslint-config": "^1.0.7"
   }
 }
